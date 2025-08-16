@@ -1,0 +1,27 @@
+# Core
+fastapi==0.115.6
+uvicorn==0.34.0
+streamlit==1.41.1
+requests==2.32.3
+python-dotenv==1.0.1
+pydantic==2.10.5
+
+# Database
+SQLAlchemy==2.0.37
+redis  # version will auto-resolve
+
+# PDF Processing
+pdfminer.six  # not in your list but required for extract_text
+
+# LangChain & Ecosystem
+langchain==0.3.14
+langchain-core==0.3.30
+langchain-community==0.3.14
+langchain-openai==0.3.0
+langchain-groq==0.2.3
+langgraph==0.2.64
+
+# Embeddings & Vector Stores
+faiss-cpu
+sentence-transformers
+
