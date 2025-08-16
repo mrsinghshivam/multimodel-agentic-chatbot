@@ -42,3 +42,4 @@ Built with **Streamlit** to provide a clean, interactive, and user-friendly inte
 ```bash
 git clone https://github.com/your-username/multimodel-agentic-chatbot.git
 cd multimodel-agentic-chatbot
+pip install -r requirements.txt
